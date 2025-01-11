@@ -163,8 +163,6 @@ with tab2:
     x_min, x_max = umap_df['UMAP1'].min(), umap_df['UMAP1'].max()
     y_min, y_max = umap_df['UMAP2'].min(), umap_df['UMAP2'].max()
 
-    
-
     # Update layout
     fig.update_layout(
         height=700,
